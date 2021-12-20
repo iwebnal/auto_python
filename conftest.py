@@ -10,3 +10,12 @@ def get_users():
     response = requests.get(SERVICE_URL_1)
     # print('hallo')
     return response
+
+
+def _calculate(a, b):
+    return a + b
+
+
+@pytest.fixture
+def calculate():
+    return _calculate
