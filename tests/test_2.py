@@ -7,7 +7,7 @@ from src.schemas.users import User
 # resp = requests.get(SERVICE_URL_1)
 
 
-def test_getting_users_list(get_users, calculate):
+def test_getting_users_list(get_users, calculate, make_number):
     # response = requests.get(SERVICE_URL_1)
     # test_obj = ResponseClass(get_users)
     # test_obj.assert_status_code(200).validate(User)
